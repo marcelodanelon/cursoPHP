@@ -34,3 +34,16 @@ Todo arquivo PHP terá a extensão .php
 - Para o XAMPP, o local aonde devemos colocar os arquivos é em `c:\xampp\htdocs`. Exemplo: `c:\xamp\htdocs\site\index.php`.
 - Para executar os arquivos php, precisamos requisita-los à partir do navegador digitando `http://localhost/`. Exemplo: `http://localhost/site/index.php`
 
+### Variáveis
+- Variável é um espaço na memória que damos um nome para armazenar algum valor.
+- O PHP é case-sensitive, significa que ele diferencia maisculas de minusculas, ou seja, Nome é diferente de nome.
+- O nome de uma variável deve ser significativo de acordo com o seu valor. Exemplo: para uma variável que irá armazenar a idade de uma pessoa, eu coloco o nome da variável de $idade.
+- No PHP toda variável inicia com o $.
+- Não utilize caracteres especiais, espaçoes ou acentos para nome de variáveis. Alguns deles até funcionam, porém é recomendado escrever nomes de variáveis de forma simples. Exemplo: ao inves de endereço para o nome de uma variavel, utilize $endereco sem o 'ç'.
+
+### Tipos de dados
+- Os valores em php podem ser divididos entre os tipos:
+    - string: todo valor que estiver entre aspas é uma string, ou seja, um texto. Exemplo: 'Marcelo'
+    - integer: todo número inteiro. Exemplo: 36
+    - float ou double: todo número decimal. Exemplo: 1.75
+    - boolean: valor de verdadeiro(true) ou falso(false).
